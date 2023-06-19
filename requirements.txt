@@ -1,0 +1,18 @@
+# python >= 3.8
+
+# torch cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.0+cpu
+torchvision==0.15.1 
+torchaudio==2.0.1
+
+# # torch cu116
+# --extra-index-url https://download.pytorch.org/whl/cu116
+# torch==2.0.0+cu116
+# torchvision==0.15.1 
+# torchaudio==2.0.1
+
+# other packages
+pandas==2.0.1
+scipy==1.10.1
+tqdm==4.65.0
